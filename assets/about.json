@@ -1,0 +1,25 @@
+{
+  "about": "CDMT2 atau Control Diabetes mellitus tipe 2 merupakan model aplikasi berbentuk mobile yang bisa digunakan di setiap smartphone dimana aplikasi ini bertujuan untuk mengontrol kadar gula darah pasien penderita diabetes mellitus khusunya tipe 2 dengan cara memasukan hasil pemeriksaan kadar gula darah dimana nanti di dapatkan hasil bahwa jika gula darah tinggi akan muncul fitur-fitur untuk tindakan yang akan dilakukan untuk menstabilkan kadar gula darah dalam tubuh dengan konsep Quality Of Life atau Kualitas hidup.",
+  "cara_pakai": {
+
+  },
+  "definisi": "Diabetes merupakan gangguan kesehatan yang berupa kumpulan gejala yang disebabkan oleh peningkatan kadar gula darah akibat kekurangan ataupun resistensi insulin. Menurut WHO Diabetes merupakan penyakit kronis dan metabolisme yang tandai oleh kadar gluko sa darah yang meningkat dan mengakibatkan kerusakan serius pada jantung, pembuluh darah, mata, ginjal, dan saraf. Yang paling umum adalah diabetes tipe 2 biasanya pada orang dewasa terjadi ketika tubuh menjadi kebal terhadap insulin (WHO, 2018).",
+  "gejala": [
+    "1.\tpoliuria (sering buang air kecil)",
+    "2.\tpolidipsi (sering merasa haus)",
+    "3.\tpolipagia (sering merasa lapar)",
+    "4.\tsulit tidur",
+    "5.\tberat badan turun drastis"
+  ],
+  "komplikasi": {
+    "hipoglikemia": "Hipoglikemia : penurunan gula darah dibatas normal",
+    "gejala": "Tanda gejala : lelah, pusing,bibir pucat, berkeringat dingin, kebingungan, dan hilang kesadaran",
+    "pencegahan": [
+      "1.\tPemberian konsumsi makanan tinggi glukosa (karbohidrat sederhana)",
+      "2.\tGlukosa murni merupakan pilihan utama, namun bentuk karbohidrat lain yang berisi glukosa juga efektif untuk menaikkan glukosa darah.",
+      "3.\tGlukosa 15–20 g (2-3 sendok makan) yang dilarutkan dalam air adalah terapi pilihan pada pasien dengan hipoglikemia yang masih sadar",
+      "4.\tPemeriksaan glukosa darah dengan glukometer harus dilakukan setelah 15 menit pemberian upaya terapi. Jika pada monitoring glukosa darah 15 menit setelah pengobatan hipoglikemia masih tetap ada, pengobatan dapat diulang kembali.",
+      "5.\tJika hasil pemeriksaan glukosa darah kadarnya sudah mencapai normal, pasien diminta untuk makan atau mengkonsumsi snack untuk mencegah berulangnya hipoglikemia"
+    ]
+  }
+}

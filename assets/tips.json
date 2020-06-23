@@ -1,0 +1,61 @@
+{
+  "olahraga": {
+    "intro": "Kegiatan jasmani sehari-hari dan latihan jasmani secara teratur (3–4 kali seminggu selama kurang lebih 30 menit) merupakan salah satu pilar pengelolaan DM tipe 2. ",
+    "kegiatan": [
+      "1.\tberjalan kaki ( 30 menit)",
+      "2.\tbersepeda santai (30 menit)",
+      "3.\tjogging (30 menit)"
+    ],
+    "catatan": [
+      "1.\tlakukan secara bertahap",
+      "2.\thindari latihan jika gula terlalu tinggi",
+      "3.\thentikan latihan jika nadi >140x/menit",
+      "4.\tminum harus cukup selama latihan",
+      "5.\tsebaiknya latihan bersama teman untuk memberikan semangat dan bantuan jika ada yang diinginkan"
+    ]
+  },
+  "makanan": [
+    {
+      "bahan_makanan": "Karbohidrat",
+      "dianjurkan": "",
+      "dibatasi": "karbohidrat\ndibatasi: nasi,\nbubur, roti, mie,\nkentang, singkong,\nubi, sagu, gandum,\npasta, jagung, talas,\nhavermout, sereal,\nketan, makaroni\n",
+      "dihindari": ""
+    },
+    {
+      "bahan_makanan": "Protein Hewani",
+      "dianjurkan": "Ayam tanpa kulit,\nikan, putih telur,\ndaging tidak\nBerlemak\n",
+      "dibatasi": "hewani tinggi\nlemak jenuh\n(kornet, sosis,\nsarden, otak,\njeroan, kuning\ntelur)\n",
+      "dihindari": "Keju, abon, dendeng,\nsusu full cream\n"
+    },
+    {
+      "bahan_makanan": "Protein Nabati",
+      "dianjurkan": "tempe, tahu,\nkacang hijau,\nkacang merah,\nkacang tanah,\nkacang kedelai\n",
+      "dibatasi": "",
+      "dihindari": ""
+    },
+    {
+      "bahan_makanan": "Sayuran",
+      "dianjurkan": "Sayur tinggi serat:\nkangkung, daun\nkacang, oyong,\nketimun, tomat,\nlabu air, kembang\nkol, lobak, sawi,\nselada, seledri,\nTerong\n",
+      "dibatasi": "bayam, buncis,\ndaun melinjo, labu\nsiam, daun\nsingkong, daun k\netela, jagung muda,\nkapri, kacang\npanjang, pare,\nwortel, daun katuk\n",
+      "dihindari": ""
+    },
+    {
+      "bahan_makanan": "Buah-buahan",
+      "dianjurkan": "jeruk, apel, pepaya,\njambu air, salak,\nbelimbing, pisang\nkapok putih (se\nsuai kebutuhan)\n(semua dalam rasa\nyang tidak terlalu\nmanis)\n",
+      "dibatasi": "nanas, anggur,\nmangga, sirsak,\npisang selain\npisang kapok putih,\nalpukat, sawo,\nsemangka, nangka\nMasak\n",
+      "dihindari": "Buah-buahan yang\nmanis dan diawetkan:\ndurian, nangka, alpukat,\nkurma, manisan buah.\n"
+    },
+    {
+      "bahan_makanan": "Minuman",
+      "dianjurkan": "",
+      "dibatasi": "",
+      "dihindari": "Minuman yang\nmengandung alkohol,\nsusu kental manis, soft\ndrink, es krim, yoghurt,\nSusu\n"
+    },
+    {
+      "bahan_makanan": "Lain-lain",
+      "dianjurkan": "",
+      "dibatasi": "makanan yang\ndigoreng dan yang\nmenggunakan\nsantan kental,\nkecap, saus tiram\n",
+      "dihindari": "Gula pasir, gula mer ah,\ngula batu, madu\nMakanan/ minuman\nyang manis: cake, kue-\nkue manis, dodol, tarcis,\nsirup, selai manis, c\noklat, permen, tape,\nMayonaise\n"
+    }
+  ]
+}

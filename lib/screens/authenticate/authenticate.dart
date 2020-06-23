@@ -1,9 +1,6 @@
-import 'package:diabet/models/user.dart';
-import 'package:diabet/screens/authenticate/welcome.dart';
-import 'package:diabet/screens/home/home.dart';
+import 'package:diabet/screens/authenticate/register.dart';
+import 'package:diabet/screens/authenticate/sign_in.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:provider/provider.dart';
 
 class Authenticate extends StatefulWidget {
   @override
@@ -12,14 +9,18 @@ class Authenticate extends StatefulWidget {
 
 class _AuthenticateState extends State<Authenticate> {
 
+  bool showSignIn = true;
+  void toggleView(){
+    //print(showSignIn.toString());
+    setState(() => showSignIn = !showSignIn);
+  }
+
   @override
   Widget build(BuildContext context) {
-    final user = Provider.of<User>(context);
-
-    if (user == null) {
-      return Welcome();
+    if (showSignIn) {
+      return SignIn(toggleView:  toggleView);
     } else {
-      return Home();
+      return Register(toggleView:  toggleView);
     }
   }
 }

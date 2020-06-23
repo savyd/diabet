@@ -1,8 +1,8 @@
-import 'package:diabet/models/user.dart';
 import 'package:diabet/screens/wrapper.dart';
 import 'package:diabet/services/auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:diabet/models/user.dart';
 
 void main() => runApp(MyApp());
 

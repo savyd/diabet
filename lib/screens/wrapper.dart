@@ -1,5 +1,6 @@
 import 'package:diabet/models/user.dart';
 import 'package:diabet/screens/authenticate/authenticate.dart';
+import 'package:diabet/screens/dashboard/dashboard.dart';
 import 'package:diabet/screens/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -9,12 +10,13 @@ class Wrapper extends StatelessWidget {
   Widget build(BuildContext context) {
 
     final user = Provider.of<User>(context);
-
-    // return either Home or Authenticate widget
+    
+    // return either the Home or Authenticate widget
     if (user == null) {
       return Authenticate();
     } else {
-      return Home();
+      return Dashboard();
     }
+    
   }
 }
