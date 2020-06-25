@@ -7,16 +7,11 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class InfoKomplikasi extends StatelessWidget {
-  createLists(array) {
-    return array.map((e) {
-      return Text('# ' + e,
-          style: GoogleFonts.openSans(
-              textStyle: TextStyle(
-                  color: Colors.white,
-                  fontSize: 14,
-                  fontWeight: FontWeight.w600)));
-    });
-  }
+  final textStyle = GoogleFonts.openSans(
+      textStyle: TextStyle(
+          color: Colors.white,
+          fontSize: Interface.fontSizeNormal,
+          fontWeight: FontWeight.w600));
 
   @override
   Widget build(BuildContext context) {
@@ -42,54 +37,24 @@ class InfoKomplikasi extends StatelessWidget {
                     children: <Widget>[
                       SizedBox(height: Interface.boxSizeNormal),
                       Text(data['komplikasi']['hipoglikemia'],
-                          style: GoogleFonts.openSans(
-                              textStyle: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: Interface.fontSizeNormal,
-                                  fontWeight: FontWeight.w600))),
+                          style: textStyle),
                       SizedBox(height: Interface.boxSizeNormal),
-                      Text(data['komplikasi']['gejala'],
-                          style: GoogleFonts.openSans(
-                              textStyle: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: Interface.fontSizeNormal,
-                                  fontWeight: FontWeight.w600))),
+                      Text(data['komplikasi']['gejala'], style: textStyle),
                       SizedBox(height: Interface.boxSizeNormal),
                       Text('Pencegahan:',
-                          textAlign: TextAlign.left,
-                          style: GoogleFonts.openSans(
-                              textStyle: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: Interface.fontSizeNormal,
-                                  fontWeight: FontWeight.w600))),
+                          textAlign: TextAlign.left, style: textStyle),
                       SizedBox(height: Interface.boxSizeNormal),
                       Text(data['komplikasi']['pencegahan'][0],
-                          style: GoogleFonts.openSans(
-                              textStyle: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: Interface.fontSizeNormal,
-                                  fontWeight: FontWeight.w600))),
+                          style: textStyle),
                       SizedBox(height: Interface.boxSizeNormal),
                       Text(data['komplikasi']['pencegahan'][2],
-                          style: GoogleFonts.openSans(
-                              textStyle: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: Interface.fontSizeNormal,
-                                  fontWeight: FontWeight.w600))),
+                          style: textStyle),
                       SizedBox(height: Interface.boxSizeNormal),
                       Text(data['komplikasi']['pencegahan'][3],
-                          style: GoogleFonts.openSans(
-                              textStyle: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: Interface.fontSizeNormal,
-                                  fontWeight: FontWeight.w600))),
+                          style: textStyle),
                       SizedBox(height: Interface.boxSizeNormal),
                       Text(data['komplikasi']['pencegahan'][4],
-                          style: GoogleFonts.openSans(
-                              textStyle: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: Interface.fontSizeNormal,
-                                  fontWeight: FontWeight.w600))),
+                          style: textStyle),
                       SizedBox(height: Interface.boxSizeNormal),
                     ]);
               }

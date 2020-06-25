@@ -1,0 +1,18 @@
+{
+  "kategori_cek_gula": [
+    {"jenis":  "Cek gula darah sewaktu", "nilai_normal": "70-130 mg/dL"},
+    {"jenis":  "Cek gula darah 2 jam pp", "nilai_normal": "< dari 140 mg/dL"},
+    {"jenis":  "Cek gula darah puasa (GDP)", "nilai_normal": "< dari 100 mg/dL"}
+  ],
+  "catatan": [
+    "1.\tPemeriksaan dilakukan dipelayanan kesehatan terdekat",
+    "2.\tPemeriksaan gula darah puasa dilakukan setelah 12 jam puasa",
+    "3.\tPemeriksaan gula darah 2 jam pp dilakukan setelah 2 jam setelah makan",
+    "4.\tJika gula darah diatas normal maka di aplikasi di munculkan seperti tanda peringatan dan di sarankan untuk melakukan diet makanan"
+  ],
+  "format": [
+    "Tanggal Nilai gula darah",
+    "Nilai gula darah",
+    "Keterangan (tinggi/rendah)"
+  ]
+}

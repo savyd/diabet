@@ -44,7 +44,7 @@ class _SignInState extends State<SignIn> {
                     onPressed: () => widget.toggleView(),
                   )
                 ],
-                title: Text("Registrasi",
+                title: Text("Login",
                     style: GoogleFonts.openSans(
                         textStyle: TextStyle(
                             color: Colors.white,

@@ -35,6 +35,7 @@ dependencies:
   provider: ^3.1.0
   flutter_spinkit: ^4.0.0
   pattern_formatter: ^1.0.2
+  flutter_launcher_icons: ^0.7.3
 
 dev_dependencies:
   flutter_test:
@@ -54,6 +55,7 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/about.json
+    - assets/rules.json
     - assets/tips.json
     - assets/notification.png
     - assets/calendar.png
@@ -62,6 +64,7 @@ flutter:
     - assets/map.png
     - assets/setting.png
     - assets/todo.png
+    - assets/blood-drop.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

@@ -40,6 +40,7 @@ class TipsFood extends StatelessWidget {
                 return SingleChildScrollView(
                     scrollDirection: Axis.horizontal,
                     child: DataTable(
+                      dataRowHeight: 120.0,
                       columns: <DataColumn>[
                         DataColumn(
                             label:

@@ -7,4 +7,5 @@ class Interface {
   static final fontSizeSmall = 10.0;
   static final boxSizeNormal = 20.0;
   static final boxSizeSmall = 10.0;
+  static final boxSizeTiny = 6.0;
 }

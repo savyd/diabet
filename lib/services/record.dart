@@ -5,9 +5,14 @@ class RecordService {
   final CollectionReference recordCollection =
       Firestore.instance.collection("user_records");
 
-  Future<void> createRecord(
-      {String userUid, String date, String time, String sugarLevel}) async {
-    await recordCollection.add({
+  Future createRecord(
+      {String type,
+      String userUid,
+      String date,
+      String time,
+      String sugarLevel}) async {
+    return await recordCollection.add({
+      'type': type,
       'user_uid': userUid,
       'date': date,
       'time': time,
@@ -15,8 +20,15 @@ class RecordService {
     });
   }
 
-  Future<void> updateRecord({String recordUid, String userUid, String date, String time, String sugarLevel}) async {
-    await recordCollection.document(recordUid).setData({
+  Future updateRecord(
+      {String type,
+      String recordUid,
+      String userUid,
+      String date,
+      String time,
+      String sugarLevel}) async {
+    return await recordCollection.document(recordUid).setData({
+      'type': type,
       'user_uid': userUid,
       'date': date,
       'time': time,
@@ -31,6 +43,7 @@ class RecordService {
   List<Record> _recordListsFromSnapshot(QuerySnapshot snapshot) {
     return snapshot.documents.map((data) {
       return Record(
+          type: data['type'],
           userUid: data['user_uid'],
           date: data['date'],
           time: data['time'],
@@ -40,6 +53,7 @@ class RecordService {
 
   Record _recordFromSnapshot(DocumentSnapshot snapshot) {
     return Record(
+        type: snapshot.data['type'],
         userUid: snapshot.data['user_uid'],
         date: snapshot.data['date'],
         time: snapshot.data['time'],

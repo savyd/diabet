@@ -5,7 +5,6 @@ import 'package:diabet/shared/loading.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-import 'package:pattern_formatter/pattern_formatter.dart';
 
 class Register extends StatefulWidget {
   final Function toggleView;
@@ -127,6 +126,7 @@ class _RegisterState extends State<Register> {
                         TextFormField(
                             decoration: textInputDecoration.copyWith(
                                 hintText: 'Nomor telpon'),
+                            keyboardType: TextInputType.number,
                             validator: (val) =>
                                 val.isEmpty ? 'Enter an nomor telpon' : null,
                             onChanged: (val) {
